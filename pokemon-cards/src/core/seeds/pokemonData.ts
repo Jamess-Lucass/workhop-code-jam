@@ -2,9 +2,9 @@ import { BasicPokemon } from "../types/basic-pokemon";
 
 export const pokemonData: BasicPokemon[] = [
   {
-    "name": "nidoking",
-    "description": "It uses its\npowerful tail in\nbattle to smash,\fconstrict, then\nbreak the prey's\nbones.",
-    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png",
+    "name": "slowbro",
+    "description": "The SHELLDER that\nis latched onto\nSLOWPOKE's tail\fis said to feed\non the host's left\nover scraps.",
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png",
     "moves": [
       {
         "name": "mega-punch",
@@ -17,20 +17,46 @@ export const pokemonData: BasicPokemon[] = [
         "power": 40
       },
       {
-        "name": "fire-punch",
-        "description": "A fiery punch. May\ncause a burn.",
+        "name": "ice-punch",
+        "description": "An icy punch. May\ncause freezing.",
         "power": 75
       }
     ],
     "types": [
-      "poison",
-      "ground"
+      "water",
+      "psychic"
     ]
   },
   {
-    "name": "dragonair",
-    "description": "A mystical POKéMON\nthat exudes a\ngentle aura.\fHas the ability\nto change climate\nconditions.",
-    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png",
+    "name": "kabuto",
+    "description": "A POKéMON that\nwas resurrected\nfrom a fossil\ffound in what was\nonce the ocean\nfloor eons ago.",
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png",
+    "moves": [
+      {
+        "name": "scratch",
+        "description": "Scratches with\nsharp claws.",
+        "power": 40
+      },
+      {
+        "name": "sand-attack",
+        "description": "Reduces accuracy\nby throwing sand.",
+        "power": null
+      },
+      {
+        "name": "headbutt",
+        "description": "An attack that may\nmake foe flinch.",
+        "power": 70
+      }
+    ],
+    "types": [
+      "rock",
+      "water"
+    ]
+  },
+  {
+    "name": "onix",
+    "description": "As it grows, the\nstone portions of\nits body harden\fto become similar\nto a diamond, but\ncolored black.",
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/95.png",
     "moves": [
       {
         "name": "bind",
@@ -49,65 +75,139 @@ export const pokemonData: BasicPokemon[] = [
       }
     ],
     "types": [
-      "dragon"
-    ]
-  },
-  {
-    "name": "graveler",
-    "description": "Rolls down slopes\nto move. It rolls\nover any obstacle\fwithout slowing\nor changing its\ndirection.",
-    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png",
-    "moves": [
-      {
-        "name": "mega-punch",
-        "description": "A powerful punch\nthrown very hard.",
-        "power": 80
-      },
-      {
-        "name": "fire-punch",
-        "description": "A fiery punch. May\ncause a burn.",
-        "power": 75
-      },
-      {
-        "name": "thunder-punch",
-        "description": "An electric punch.\nIt may paralyze.",
-        "power": 75
-      }
-    ],
-    "types": [
       "rock",
       "ground"
     ]
   },
   {
-    "name": "kakuna",
-    "description": "Almost incapable\nof moving, this\nPOKéMON can only\fharden its shell\nto protect itself\nfrom predators.",
-    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png",
+    "name": "caterpie",
+    "description": "Its short feet are tipped with suction\npads that enable it to tirelessly climb\nslopes and walls.",
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
     "moves": [
+      {
+        "name": "tackle",
+        "description": "A full-body charge\nattack.",
+        "power": 40
+      },
       {
         "name": "string-shot",
         "description": "A move that lowers\nthe foe's SPEED.",
         "power": null
       },
       {
-        "name": "harden",
-        "description": "Raises the user's\nDEFENSE.",
-        "power": null
-      },
-      {
-        "name": "iron-defense",
-        "description": "Hardens the body’s surface\nto sharply raise DEFENSE.",
-        "power": null
+        "name": "snore",
+        "description": "An attack useable\nonly while asleep.",
+        "power": 50
       }
     ],
     "types": [
-      "bug",
+      "bug"
+    ]
+  },
+  {
+    "name": "nidoran-f",
+    "description": "Although small,\nits venomous\nbarbs render this\fPOKéMON dangerous.\nThe female has\nsmaller horns.",
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png",
+    "moves": [
+      {
+        "name": "scratch",
+        "description": "Scratches with\nsharp claws.",
+        "power": 40
+      },
+      {
+        "name": "cut",
+        "description": "Cuts using claws,\nscythes, etc.",
+        "power": 50
+      },
+      {
+        "name": "double-kick",
+        "description": "A double kicking\nattack.",
+        "power": 30
+      }
+    ],
+    "types": [
       "poison"
     ]
   },
   {
-    "name": "magneton",
-    "description": "Formed by several\nMAGNEMITEs linked\ntogether. They\ffrequently appear\nwhen sunspots\nflare up.",
-    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png",
+    "name": "growlithe",
+    "description": "Very protective\nof its territory.\nIt will bark and\fbite to repel\nintruders from\nits space.",
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png",
+    "moves": [
+      {
+        "name": "double-kick",
+        "description": "A double kicking\nattack.",
+        "power": 30
+      },
+      {
+        "name": "headbutt",
+        "description": "An attack that may\nmake foe flinch.",
+        "power": 70
+      },
+      {
+        "name": "body-slam",
+        "description": "An attack that may\ncause paralysis.",
+        "power": 85
+      }
+    ],
+    "types": [
+      "fire"
+    ]
+  },
+  {
+    "name": "nidoran-m",
+    "description": "Stiffens its ears\nto sense danger.\nThe larger its\fhorns, the more\npowerful its\nsecreted venom.",
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png",
+    "moves": [
+      {
+        "name": "cut",
+        "description": "Cuts using claws,\nscythes, etc.",
+        "power": 50
+      },
+      {
+        "name": "double-kick",
+        "description": "A double kicking\nattack.",
+        "power": 30
+      },
+      {
+        "name": "headbutt",
+        "description": "An attack that may\nmake foe flinch.",
+        "power": 70
+      }
+    ],
+    "types": [
+      "poison"
+    ]
+  },
+  {
+    "name": "seel",
+    "description": "The protruding\nhorn on its head\nis very hard.\fIt is used for\nbashing through\nthick ice.",
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png",
+    "moves": [
+      {
+        "name": "pay-day",
+        "description": "Throws coins. Gets\nthem back later.",
+        "power": 40
+      },
+      {
+        "name": "slam",
+        "description": "Slams the foe with\na tail, vine, etc.",
+        "power": 80
+      },
+      {
+        "name": "headbutt",
+        "description": "An attack that may\nmake foe flinch.",
+        "power": 70
+      }
+    ],
+    "types": [
+      "water"
+    ]
+  },
+  {
+    "name": "magnemite",
+    "description": "Uses anti-gravity\nto stay suspended.\nAppears without\fwarning and uses\nTHUNDER WAVE and\nsimilar moves.",
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png",
     "moves": [
       {
         "name": "headbutt",
@@ -131,10 +231,15 @@ export const pokemonData: BasicPokemon[] = [
     ]
   },
   {
-    "name": "tentacruel",
-    "description": "The tentacles are\nnormally kept\nshort. On hunts,\fthey are extended\nto ensnare and\nimmobilize prey.",
-    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png",
+    "name": "sandshrew",
+    "description": "Burrows deep\nunderground in\narid locations\ffar from water.\nIt only emerges\nto hunt for food.",
+    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png",
     "moves": [
+      {
+        "name": "scratch",
+        "description": "Scratches with\nsharp claws.",
+        "power": 40
+      },
       {
         "name": "swords-dance",
         "description": "A dance that in­\ncreases ATTACK.",
@@ -144,118 +249,10 @@ export const pokemonData: BasicPokemon[] = [
         "name": "cut",
         "description": "Cuts using claws,\nscythes, etc.",
         "power": 50
-      },
-      {
-        "name": "bind",
-        "description": "Binds the target\nfor 2-5 turns.",
-        "power": 15
       }
     ],
     "types": [
-      "water",
-      "poison"
-    ]
-  },
-  {
-    "name": "hitmonchan",
-    "description": "While apparently\ndoing nothing, it\nfires punches in\flightning fast\nvolleys that are\nimpossible to see.",
-    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png",
-    "moves": [
-      {
-        "name": "comet-punch",
-        "description": "Repeatedly punches\n2-5 times.",
-        "power": 18
-      },
-      {
-        "name": "mega-punch",
-        "description": "A powerful punch\nthrown very hard.",
-        "power": 80
-      },
-      {
-        "name": "fire-punch",
-        "description": "A fiery punch. May\ncause a burn.",
-        "power": 75
-      }
-    ],
-    "types": [
-      "fighting"
-    ]
-  },
-  {
-    "name": "arbok",
-    "description": "It is rumored that\nthe ferocious\nwarning markings\fon its belly\ndiffer from area\nto area.",
-    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png",
-    "moves": [
-      {
-        "name": "bind",
-        "description": "Binds the target\nfor 2-5 turns.",
-        "power": 15
-      },
-      {
-        "name": "slam",
-        "description": "Slams the foe with\na tail, vine, etc.",
-        "power": 80
-      },
-      {
-        "name": "headbutt",
-        "description": "An attack that may\nmake foe flinch.",
-        "power": 70
-      }
-    ],
-    "types": [
-      "poison"
-    ]
-  },
-  {
-    "name": "haunter",
-    "description": "Because of its\nability to slip\nthrough block\fwalls, it is said\nto be from an­\nother dimension.",
-    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png",
-    "moves": [
-      {
-        "name": "fire-punch",
-        "description": "A fiery punch. May\ncause a burn.",
-        "power": 75
-      },
-      {
-        "name": "ice-punch",
-        "description": "An icy punch. May\ncause freezing.",
-        "power": 75
-      },
-      {
-        "name": "thunder-punch",
-        "description": "An electric punch.\nIt may paralyze.",
-        "power": 75
-      }
-    ],
-    "types": [
-      "ghost",
-      "poison"
-    ]
-  },
-  {
-    "name": "starmie",
-    "description": "Its central core\nglows with the\nseven colors of\fthe rainbow. Some\npeople value the\ncore as a gem.",
-    "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/121.png",
-    "moves": [
-      {
-        "name": "headbutt",
-        "description": "An attack that may\nmake foe flinch.",
-        "power": 70
-      },
-      {
-        "name": "tackle",
-        "description": "A full-body charge\nattack.",
-        "power": 40
-      },
-      {
-        "name": "take-down",
-        "description": "A tackle that also\nhurts the user.",
-        "power": 90
-      }
-    ],
-    "types": [
-      "water",
-      "psychic"
+      "ground"
     ]
   }
 ];
